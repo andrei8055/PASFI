@@ -17,9 +17,9 @@ Now that we know the minimum password requirements, we can use `pasfi.py` + a co
 
 For example, the command below will extract all passwords of 8 characters that contain 1 capital letter, 1 digit and 1 special character from rockyou.txt
 
+```
 C:\users> python3 pasfi.py rockyou.txt --length 8 --caps 1 --digits 1 --specials 1
 
-```
 P@ssw0rd
 Hottie#1
 Ashley#1
